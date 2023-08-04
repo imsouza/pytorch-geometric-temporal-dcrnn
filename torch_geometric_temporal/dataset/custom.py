@@ -12,7 +12,7 @@ class CustomDatasetLoader(object):
         self._read_web_data()
 
     def _read_web_data(self):
-        url = "https://github.com/imsouza/pytorch-geometric-temporal-dcrnn/blob/master/lr-data.json"  # DEFINE JSON URL HERE, TIPS: UPLOAD JSON TO GITHUB (can be on this project, path:dataset) AND COPY RAW URL+
+        url = "https://raw.githubusercontent.com/imsouza/pytorch-geometric-temporal-dcrnn/master/lr-data.json"  # DEFINE JSON URL HERE, TIPS: UPLOAD JSON TO GITHUB (can be on this project, path:dataset) AND COPY RAW URL+
         self._dataset = json.loads(urllib.request.urlopen(url).read())
 
     def _get_edges(self):
