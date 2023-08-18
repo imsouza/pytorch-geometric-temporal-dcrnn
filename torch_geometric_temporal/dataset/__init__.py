@@ -1,5 +1,5 @@
 from .chickenpox import ChickenpoxDatasetLoader
-from .custom import CustomDatasetLoader  # if you edit the custom.py file, you need to restart the kernel and update name here
+from .covides import CustomDatasetLoader  # if you edit the custom.py file, you need to restart the kernel and update name here
 from .pedalme import PedalMeDatasetLoader
 from .metr_la import METRLADatasetLoader
 from .pems_bay import PemsBayDatasetLoader

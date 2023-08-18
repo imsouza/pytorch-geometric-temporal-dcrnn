@@ -1,6 +1,7 @@
 import json
 import urllib 
 import numpy as np
+import torch
 from ..signal import StaticGraphTemporalSignal
 
 
